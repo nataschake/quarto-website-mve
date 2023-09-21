@@ -1,0 +1,99 @@
+/*-- scss:defaults --*/
+
+$body-bg: #fff;
+$body-color: #153764;
+$link-color: #0aaf9e;
+$body-emphasis-color: #e85028;
+
+/*-- scss:rules --*/
+/* rule to have opaque background */
+.reveal .slides>section.present,
+.reveal .slides>section>section.present {
+    background: rgba(255, 255, 255, 0.85);
+}
+
+/*element.style {
+    box-sizing: border-box;
+    padding: 2em;
+}*/
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+    box-sizing: border-box;
+    padding: 2rem 0;
+}
+
+//.reveal p,
+.reveal .slides section,
+.reveal .slides section>section {
+    line-height: 1.3;
+    box-sizing: border-box;
+    padding: 0 4rem;
+}
+
+.reveal .slides section>section {
+    margin-left: -4rem;
+}
+
+.reveal pre.sourceCode code {
+    background-color: #fff;
+    padding: 6px 9px;
+    /*-- 510px serves 19 lines of old Ontotext-styled code, 25 lines of new style in ontotext.scss. 
+    More lines will be scrollable not to overlap with footer/sidenotes --*/
+    max-height: 510px;
+    white-space: pre;
+    /* font-size: calc( (100vw - Vmin)/(Vmax - Vmin) * (Fmax - Fmin) + Fmin);*/
+    /* font-size: calc( (100vw - 480px)/(1280 - 480) * (24 - 16) + 16px);*/
+    //the smaller screen - the larger the font
+    font-size: max(calc((100vw - 900px)/(1600 - 900) * (17 - 33) + 33px), 17px) !important;
+    line-height: 1em !important;
+    //font-size: 13px;
+}
+
+.reveal pre.numberSource.sourceCode code>span {
+    left: 0;
+}
+
+.reveal .footer {
+    //color: #3c7ed6;
+    color: #0aaf9e
+}
+
+.reveal .slide aside,
+.reveal .slide div.aside {
+    position: relative;
+    top: 20px;
+    color: #0aaf9e;
+}
+
+.slide-menu-wrapper .slide-menu-items .slide-menu-item {
+    padding: 0.3em 0.5em !important;
+}
+
+.slide-menu-wrapper .slide-menu-items .slide-menu-item-vertical {
+    padding: 0.3em 1.5em !important;
+}
+
+// a class for text alignments in the column created with Quarto columns
+.centered-text {
+    text-align: center
+}
+
+.right-centered-text {
+    text-align: right
+}
+
+.reveal table {
+    //vw - viewport width - is the actual width of a window showing presentation, it allows font size recalculation depending on the current window size
+    //font-size: max(calc((100vw - 900px)/(1600 - 900) * (18 - 30) + 30px), 18px) !important;
+    line-height: 2rem !important;
+}
+
+// don't show slide number on a title page
+.reveal .slide-number>a[href*='title-slide'] {
+    display: none;
+}

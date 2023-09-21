@@ -1,0 +1,42 @@
+---
+title: "Various features"
+date: 18-Sep-2023
+footer: "Quarto hints"
+metadata-files:
+  - ../../resources/_metadata.yml
+---
+# Highlighting code samples
+
+## Use triple backticks
+
+Use markdown style: \`\`\`...\`\`\` or \`\`\`language...\`\`\`.
+
+SPARQL/TTL/PIE code will be in a specific highlighting style:
+
+```sparql
+select *
+where {
+    ?s ff-map:mentionsEntity ?entity.
+    ?entity a dbo:Place
+
+    service <http://factforge.net/repositories/ff-news>
+    { ?entity rdfs:label ?label }
+}
+```
+General purpose programing code blocks are also highlighted:
+
+```python
+# Store input numbers
+num1 = input('Enter first number: ')
+num2 = input('Enter second number: ')
+
+# Add two numbers
+sum = float(num1) + float(num2)
+
+# Display the sum
+print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))
+```
+
+## Acknowledgements
+
+To mention relevant parties in this section, use markdown table and adjust widths of images.

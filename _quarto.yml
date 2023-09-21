@@ -1,0 +1,21 @@
+project:
+  type: website
+
+website:
+  title: "mve"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+  sidebar:
+    contents: auto
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
