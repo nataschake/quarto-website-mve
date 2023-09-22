@@ -2,8 +2,9 @@
 title: "Great presentations"
 date: 18-Sep-2023
 footer: "Quarto Presentations with beautiful slide decks made by RevealJs"
+format: revealjs
 metadata-files:
-  - ../../resources/_metadata.yml
+  - ../_metadata.yml
 ---
 # Outline
 

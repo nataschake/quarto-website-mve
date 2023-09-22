@@ -7,31 +7,24 @@
     "text": "This is a list of presentations"
   },
   {
-    "objectID": "markdown/20230919/presentation.html",
-    "href": "markdown/20230919/presentation.html",
-    "title": "Great presentations",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "Outline\n\nWhat is Quarto, RevealJs\nOverall process\nHighlighting code samples\nTables\nLists\nLinks\nImages\nAcknowledgements section\n\n\n\nWhat is Quarto and RevealJs?\n\n\n\n\nan open-source scientific and technical publishing system\n\nAuthor using Jupyter notebooks or with plain text markdown in your favorite editor\nWrite using Pandoc markdown, including equations, citations, crossrefs, figure panels, callouts, advanced layout, and more\nCreate dynamic content with Python, R, Julia, and Observable.\n\n\n\n\n\n\n\na HTML presentation framework\n\nanimated slides, LaTex support, speaker notes, etc.\n\n\n\n\n\nOverall process\n\nCreate .qmd file, use Github Markdown + Quarto markdown.\nuse make to generate .html file = ready to view presentation\nOpen .html file in a browser and enjoy"
-  },
-  {
-    "objectID": "markdown/20230921/presentation2.html",
-    "href": "markdown/20230921/presentation2.html",
-    "title": "Various features",
-    "section": "",
-    "text": "Use markdown style: ```…``` or ```language…```.\nSPARQL/TTL/PIE code will be in a specific highlighting style:\nselect *\nwhere {\n    ?s ff-map:mentionsEntity ?entity.\n    ?entity a dbo:Place\n\n    service &lt;http://factforge.net/repositories/ff-news&gt;\n    { ?entity rdfs:label ?label }\n}\nGeneral purpose programing code blocks are also highlighted:\n# Store input numbers\nnum1 = input('Enter first number: ')\nnum2 = input('Enter second number: ')\n\n# Add two numbers\nsum = float(num1) + float(num2)\n\n# Display the sum\nprint('The sum of {0} and {1} is {2}'.format(num1, num2, sum))\n\n\n\nTo mention relevant parties in this section, use markdown table and adjust widths of images."
+    "text": "About message"
   },
   {
     "objectID": "markdown/20230921/presentation2.html#use-triple-backticks",
     "href": "markdown/20230921/presentation2.html#use-triple-backticks",
     "title": "Various features",
-    "section": "",
-    "text": "Use markdown style: ```…``` or ```language…```.\nSPARQL/TTL/PIE code will be in a specific highlighting style:\nselect *\nwhere {\n    ?s ff-map:mentionsEntity ?entity.\n    ?entity a dbo:Place\n\n    service &lt;http://factforge.net/repositories/ff-news&gt;\n    { ?entity rdfs:label ?label }\n}\nGeneral purpose programing code blocks are also highlighted:\n# Store input numbers\nnum1 = input('Enter first number: ')\nnum2 = input('Enter second number: ')\n\n# Add two numbers\nsum = float(num1) + float(num2)\n\n# Display the sum\nprint('The sum of {0} and {1} is {2}'.format(num1, num2, sum))"
+    "section": "1.1 Use triple backticks",
+    "text": "1.1 Use triple backticks\nUse markdown style: ```…``` or ```language…```.\nSPARQL/TTL/PIE code will be in a specific highlighting style:\nselect *\nwhere {\n    ?s ff-map:mentionsEntity ?entity.\n    ?entity a dbo:Place\n\n    service &lt;http://factforge.net/repositories/ff-news&gt;\n    { ?entity rdfs:label ?label }\n}\nGeneral purpose programing code blocks are also highlighted:\n# Store input numbers\nnum1 = input('Enter first number: ')\nnum2 = input('Enter second number: ')\n\n# Add two numbers\nsum = float(num1) + float(num2)\n\n# Display the sum\nprint('The sum of {0} and {1} is {2}'.format(num1, num2, sum))"
   },
   {
     "objectID": "markdown/20230921/presentation2.html#acknowledgements",
     "href": "markdown/20230921/presentation2.html#acknowledgements",
     "title": "Various features",
-    "section": "",
-    "text": "To mention relevant parties in this section, use markdown table and adjust widths of images."
+    "section": "1.2 Acknowledgements",
+    "text": "1.2 Acknowledgements\nTo mention relevant parties in this section, use markdown table and adjust widths of images.\n\n\n\nQuarto hints"
   }
 ]

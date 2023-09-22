@@ -27,7 +27,7 @@ format:
     menu:
       side: left
     title-slide-attributes:
-        data-background-image: ../../resources/bkg1.jpg
+        data-background-image: ../../resources/bkg1.png
 #use reveal-header extension if you need both header and footer on slides. They are declared in the presentation.qmd file
 #filters:
 #  - reveal-header
