@@ -1,0 +1,34 @@
+from: gfm+autolink_bare_uris
+format:
+  revealjs: 
+    incremental: false
+    slide-number: c/t
+    theme: ../../css/own.scss
+    logo: ../../resources/quarto.png
+    embed-resources: false
+    margin: 0
+    width: 1600
+    height: 900
+    background-image: ../../resources/bkg2.png
+    background-size: cover
+    background-opacity: 0.1
+    transition: none
+    code-copy: true
+    code-line-numbers: true
+    code-overflow: scroll
+#show section numbers
+    number-sections: true
+#start from 1
+    number-offset: 0
+#keep it uncommented if slides will be mostly lenghty texts and tables
+    scrollable: true
+#auto-stretch: disallow stretching of images, as it does not work for big images within custom dvs (tables, columns)
+    auto-stretch: false
+    menu:
+      side: left
+    title-slide-attributes:
+        data-background-image: ../../resources/bkg2.png
+#use reveal-header extension if you need both header and footer on slides. They are declared in the presentation.qmd file
+#filters:
+#  - reveal-header
+    
