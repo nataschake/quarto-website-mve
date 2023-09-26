@@ -1,6 +1,14 @@
 ---
-title: "mve"
+title: "List of presentations"
+listing:
+  id: all-presentations 
+  contents: markdown/*/
+  type: default
+  fields: [title, author, date, reading-time]
+  page-size: 10
 ---
 
-This is a list of presentations
+The list of presentations
 
+:::{#all-presentations}
+:::
