@@ -9,7 +9,7 @@ website:
         text: Home
       - about.qmd
   sidebar:
-    contents: markdown/*/
+    contents: markdown
 
 format:
   html:
