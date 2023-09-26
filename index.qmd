@@ -3,7 +3,7 @@ title: "List of presentations"
 listing:
   id: all-presentations 
   contents: markdown/*/
-  type: default
+  type: table
   fields: [title, author, date, reading-time]
   page-size: 10
 ---
